@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+    text-align: center;
+  }
+  
+  h1 {
+    color: rgb(20, 16, 235);
+  }
+  
+  div {
+    font-family: verdana;
+    font-size: 20px;
+  }
