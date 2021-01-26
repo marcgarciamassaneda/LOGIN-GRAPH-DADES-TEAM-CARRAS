@@ -7,9 +7,10 @@ main > div {
     padding-bottom: 50px;
     padding-left: 80px;
     text-align: center;
-    background: rgba(4, 242, 250, 0.2)
+    background: rgba(4, 242, 250, 0.3)
 }
 
 body {
-    background-image: url("photos/IMG_1203.JPG");
+    background: url("photos/IMG_1203.JPG") no-repeat;
+    background-size: 100%;
 }
