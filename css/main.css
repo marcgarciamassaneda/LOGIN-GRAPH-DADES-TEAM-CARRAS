@@ -1,6 +1,7 @@
 main > div {
     border-style: solid;
     border-color: blueviolet;
+    border-radius: 30px;
     margin: 100px;
     padding-top: 10px;
     padding-right: 30px;
