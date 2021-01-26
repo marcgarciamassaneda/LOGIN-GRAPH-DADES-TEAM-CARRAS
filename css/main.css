@@ -1,0 +1,17 @@
+main > div {
+    border-style: solid;
+    border-color: blueviolet;
+    border-radius: 30px;
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    text-align: center;
+    background: rgba(4, 242, 250, 0.3)
+}
+
+body {
+    background: url("photos/IMG_1203.JPG") no-repeat;
+    background-size: 100%;
+}

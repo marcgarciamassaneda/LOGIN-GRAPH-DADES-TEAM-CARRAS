@@ -2,6 +2,24 @@
 <html>
 
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    label{
+        padding: 10px;
+    }
+
+    input{
+        height: 12%;
+        width: auto;
+        padding: 2px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+
+    }
+
+</style>
 <title>Graph de Dades</title>
 <link rel="stylesheet" href="css/main.css">
 </head>
@@ -13,7 +31,7 @@
 
         <form action="/action_page.php" method="post">
             <div class = "container">
-              <label for="user"><b>Usuari:</b></label><br>
+              <label for="user" font=caption><b>Usuari:</b></label><br>
               <input type="text" placeholder="exemple@mail.com" id="user" name="user" required><br>
               <label for="pwd"><b>Contrasenya:</b></label><br>
               <input type="password" placeholder="0123456789 es massa tipic..." id="pwd" name="pwd" required><br>
