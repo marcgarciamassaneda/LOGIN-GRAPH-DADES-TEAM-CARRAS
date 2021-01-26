@@ -1,6 +1,6 @@
 main > div {
     border-style: solid;
-    border-color: blueviolet;
+    border-color: SlateBlue;
     border-radius: 30px;
     margin: 100px;
     padding-top: 10px;
@@ -11,7 +11,35 @@ main > div {
     background: rgba(4, 242, 250, 0.3)
 }
 
+main h1 {
+    background-color: SlateBlue;
+    text-align: center;
+}
+
 body {
-    background: url("photos/IMG_1203.JPG") no-repeat;
-    background-size: 100%;
+    background: url("photos/IMG_1203.JPG") fixed no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
