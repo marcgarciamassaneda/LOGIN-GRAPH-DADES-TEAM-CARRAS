@@ -13,3 +13,9 @@ main > div {
 body {
     background-image: url("photos/IMG_1203.JPG");
 }
+
+input {
+    height: 10%;
+    width: 75%;
+
+}
