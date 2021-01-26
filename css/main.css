@@ -1,13 +1,15 @@
-body {
-    background-color: lightblue;
+main > div {
+    border-style: solid;
+    border-color: blueviolet;
+    margin: 100px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
     text-align: center;
-  }
-  
-  h1 {
-    color: rgb(20, 16, 235);
-  }
-  
-  div {
-    font-family: verdana;
-    font-size: 20px;
-  }
+    background: rgba(4, 242, 250, 0.2)
+}
+
+body {
+    background-image: url("photos/IMG_1203.JPG");
+}
