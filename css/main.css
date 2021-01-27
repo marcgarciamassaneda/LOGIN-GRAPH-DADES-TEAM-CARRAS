@@ -13,13 +13,21 @@ main > div {
 
 main h1 {
     background-color: SlateBlue;
-    text-align: center;
+    display: inline-block;
+    border-radius: 15px;
+    padding: 3px;
+    font-family: "Andale mono", monospace;
+
 }
 
 body {
     background: url("photos/IMG_1203.JPG") fixed no-repeat;
     background-size: cover;
     position: relative;
+}
+
+label{
+    font: caption;
 }
 
 .button {
