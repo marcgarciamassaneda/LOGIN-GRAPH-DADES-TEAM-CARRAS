@@ -1,45 +1,76 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="eng" class="h-100">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<style>
-    label{
-        padding: 10px;
-    }
+  <style>
+      label{
+          padding: 10px;
+      }
 
-    input{
-        height: 12%;
-        width: auto;
-        padding: 2px;
-        margin-top: 5px;
-        margin-bottom: 10px;
+      input{
+          height: 12%;
+          width: auto;
+          padding: 2px;
+          margin-top: 5px;
+          margin-bottom: 10px;
 
-    }
+      }
 
-</style>
-<title>Graph de Dades</title>
-<link rel="stylesheet" href="css/main.css">
+  </style>
+  <title>Graph de Dades</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+  integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
-<body>
-<main>
-    <div>
-        <h1>BENVINGUTS AL GRAPH DE DADES</h1>
+<body class="h-100">
+  <main class="h-75">
+      <div>
+          <h1>BENVINGUTS AL GRAPH DE DADES</h1>
 
-        <form action="/action_page.php" method="post">
-            <div class = "container">
-              <label for="user" font=caption><b>Usuari:</b></label><br>
-              <input type="text" placeholder="exemple@mail.com" id="user" name="user" required><br>
-              <label for="pwd"><b>Contrasenya:</b></label><br>
-              <input type="password" placeholder="0123456789 es massa tipic..." id="pwd" name="pwd" required><br>
-              <input class="button" type="submit" value="ENTRAR A LA FESTA">
-            </div>
+          <form action="/action_page.php" method="post">
+              <div class = "container">
+                <label for="user"><b>Usuari:</b></label><br>
+                <input type="text" placeholder="exemple@mail.com" id="user" name="user" required><br>
+                <label for="pwd"><b>Contrasenya:</b></label><br>
+                <input type="password" placeholder="0123456789 es massa tipic..." id="pwd" name="pwd" required><br>
+                <input class="btn btn-primary m-3" type="submit" value="ENTRAR A LA FESTA">
+              </div>
 
-        </form>
+          </form>
+      </div>
+  </main>
+  <footer class="h-75 text-center">
+    <h1 class="text-center">GALERIA</h1>
+    <div id="carouselFade" class="carousel slide carousel-fade h-75 m-5" data-bs-ride="carousel">
+      <div class="carousel-inner h-100">
+        <div class="carousel-item active">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3c5NNOi0aVogTM61vFbD9oXV8qlFpVSUYQo9OyNBFRszffkvAH7pIl7PBYIbMXSyZsuiJ-iItxBM5NNIdP9P4aao3kMB3aYwDluwO5zE0KjhaSC65zzZzsMeLuFzK0u87u6QYTYHZlgcf5JuyHbPzQAEA=w2880-h1618-no?authuser=0" class="d-block w-100" alt="FESTA">
+        </div>
+        <div class="carousel-item">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3c6WfM581dLAPzMuhugXBZQgfRkCTOX9EDSQ8J246qn5H0Rl_D2SW-D3pM3nkmbHl4sqIUWrp9CZlY0wbEuOzR4HVNsrsuaWR7WyomCtbqnTrqxCKugCp1JlI5dAyoI5FsykrRbW0KLEP3DP__raeaEGQ=w2880-h1618-no?authuser=0" class="d-block w-100" alt="FESTA">
+        </div>
+        <div class="carousel-item">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3dpzMeCjCV0xqrvNXj1eLPoUBwFFcKMp9x0HcOmeSof2KkK9JDQvDz6__m6Tt0LFg_qL1_6YEZFEKJojvTrq57QcyUr9Sefu-1hoBA17iRtd1fEQk_ttXE2LtHcr2I1_brq2q7quM63axbznHLz9DiHdA=w2880-h1618-no?authuser=0" class="d-block w-100" alt="FESTA">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselFade" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselFade" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
     </div>
-</main>
+    <a href="#">
+      <span class="material-icons">input</span>
+    </a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>

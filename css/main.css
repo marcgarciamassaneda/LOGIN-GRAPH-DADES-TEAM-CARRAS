@@ -8,7 +8,7 @@ main > div {
     padding-bottom: 50px;
     padding-left: 80px;
     text-align: center;
-    background: rgba(4, 242, 250, 0.3)
+    background: rgba(4, 242, 250, 0.3);
 }
 
 main h1 {
@@ -22,24 +22,18 @@ body {
     position: relative;
 }
 
-.button {
-    display: inline-block;
-    padding: 15px 25px;
-    font-size: 20px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: #fff;
-    background-color: #4CAF50;
-    border: none;
-    border-radius: 15px;
+footer {
+    border-style: solid;
+    border-color: SlateBlue;
+    border-radius: 30px;
+    background: rgba(4, 242, 250, 0.3);
+    margin: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 30px;
 }
 
-.button:hover {background-color: #3e8e41}
-
-.button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
+a:hover {
+    color: slateblue;
+  }
