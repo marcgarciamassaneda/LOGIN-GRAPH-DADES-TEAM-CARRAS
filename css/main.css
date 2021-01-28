@@ -41,3 +41,9 @@ footer {
 a:hover {
     color: slateblue;
   }
+
+  
+.carousel {
+    width:640px;
+    height:360px;
+}
