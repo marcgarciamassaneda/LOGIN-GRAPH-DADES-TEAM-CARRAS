@@ -1,49 +1,11 @@
-main > div {
-    border-style: solid;
-    border-color: SlateBlue;
-    border-radius: 30px;
-    margin: 100px;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px;
-    text-align: center;
-    background: rgba(4, 242, 250, 0.3);
+#root {
+    background-image: url("photos/graph.gif");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
-main h1 {
-    background-color: Slateblue;
-    display: inline-block;
-    border-radius: 15px;
-    padding: 3px;
-    font-family: "Andale mono", monospace;
-}
-
-body {
-    background: url("photos/IMG_1203.JPG") fixed no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-footer {
-    border-style: solid;
-    border-color: SlateBlue;
-    border-radius: 30px;
-    background: rgba(4, 242, 250, 0.3);
-    margin: 30px;
-    padding-top: 10px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    font-family: "Andale mono", monospace;
-}
-
-a:hover {
-    color: slateblue;
-  }
-
-  
-.carousel {
-    width:640px;
-    height:360px;
+main {
+    background-color: rgb(222, 184, 135, 0.6);
+    margin-left: 20%;
+    margin-right: 20%;
 }
