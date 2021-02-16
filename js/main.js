@@ -8,7 +8,7 @@ $(window).on("load",  async () => {
             var codi = $("#codi-acces");
             var bcrypt = dcodeIO.bcrypt;
             if (bcrypt.compareSync(codi.val(), CodiCorrecteHash)) {
-                window.location.assign("https://www.fib.upc.edu/ca/estudis/graus/grau-en-ciencia-i-enginyeria-de-dades");
+                window.location.assign("in.html");
             }
             else {
                 alert("Codi incorrecte.");
